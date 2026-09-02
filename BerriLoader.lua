@@ -1,5 +1,14 @@
 if not game:IsLoaded() then game.Loaded:Wait() end
 task.wait(1)
+if not game:IsLoaded() then game.Loaded:Wait() end
+task.wait(1)
+
+local GAMES = {
+	[8304191830] = "TypeSoul",
+	[80167904212435] = "StrikeBorn",
+}
+
+local BASE = "https://raw.githubusercontent.com/andrew221121-collab/berri-loader/refs/heads/main/"
 
 -- Game detection
 local GAMES = {
